@@ -1,3 +1,4 @@
+<?php
 class ArticleFixture extends CakeTestFixture {
 
       /* 任意。異なるテスト用データソースにフィクスチャを読み込む時にこのプロパティを指定してください。 */

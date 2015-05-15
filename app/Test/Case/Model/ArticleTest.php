@@ -1,3 +1,5 @@
+<?php
+
 App::uses('Article','Model');
 
 class ArticleTest extends CakeTestCase {
