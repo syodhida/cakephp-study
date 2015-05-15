@@ -1,0 +1,50 @@
+2015-05-15 11:17:12 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /test/app/
+Stack Trace:
+#0 /var/www/html/test/app/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/test/app/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/html/test/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/html/test/app/index.php(8): require('/var/www/html/t...')
+#4 {main}
+2015-05-15 11:17:22 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /test/app/webroot/
+Stack Trace:
+#0 /var/www/html/test/app/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/test/app/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/html/test/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-15 12:28:56 Error: Fatal Error (64): require_once() [http://php.net/function.require]: Failed opening required '/var/www/html/test/app//Vendor/PHPUnit/autoload.php' (include_path='.:/usr/share/pear:/usr/share/php') in [/var/www/html/test/app/Config/bootstrap.php, line 103]
+2015-05-15 12:28:56 Error: [FatalErrorException] require_once() [http://php.net/function.require]: Failed opening required '/var/www/html/test/app//Vendor/PHPUnit/autoload.php' (include_path='.:/usr/share/pear:/usr/share/php')
+Stack Trace:
+#0 /var/www/html/test/app/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/t...', 103)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/t...', 103, Array)
+#2 /var/www/html/test/app/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/t...', 103, Array)
+#3 /var/www/html/test/app/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-15 12:29:42 Error: Fatal Error (64): require_once() [http://php.net/function.require]: Failed opening required '/var/www/html/test/app/Vendor/PHPUnit/autoload.php' (include_path='.:/usr/share/pear:/usr/share/php') in [/var/www/html/test/app/Config/bootstrap.php, line 103]
+2015-05-15 12:29:42 Error: [FatalErrorException] require_once() [http://php.net/function.require]: Failed opening required '/var/www/html/test/app/Vendor/PHPUnit/autoload.php' (include_path='.:/usr/share/pear:/usr/share/php')
+Stack Trace:
+#0 /var/www/html/test/app/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/t...', 103)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/t...', 103, Array)
+#2 /var/www/html/test/app/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/t...', 103, Array)
+#3 /var/www/html/test/app/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-15 15:25:15 Error: Fatal Error (1): Undefined class constant 'COLOR' in [/var/www/html/test/app/Vendor/cakephp/cakephp/lib/Cake/Log/Engine/ConsoleLog.php, line 56]
+2015-05-15 15:25:15 Error: [FatalErrorException] Undefined class constant 'COLOR'
+Stack Trace:
+#0 /var/www/html/test/app/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Undefined class...', '/var/www/html/t...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Undefined class...', '/var/www/html/t...', 56, Array)
+#2 /var/www/html/test/app/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Undefined class...', '/var/www/html/t...', 56, Array)
+#3 /var/www/html/test/app/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
