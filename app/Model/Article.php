@@ -1,3 +1,4 @@
+<?php
 class Article extends AppModel {
     public function published($fields = null) {
         $params = array(

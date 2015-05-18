@@ -1,3 +1,4 @@
+<?php
 class ArticlesController extends AppController {
     public $helpers = array('Form', 'Html');
 
